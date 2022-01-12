@@ -30,6 +30,9 @@ chrome-profiler-events*.json
 !.vscode/extensions.json
 .history/*
 
+# vim tpope/projectionist
+/.projections.json
+
 # misc
 /.angular/cache
 /.sass-cache
