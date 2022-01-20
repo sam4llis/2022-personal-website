@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 .custom-shape-divider-bottom-1642074388 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
@@ -22,4 +23,12 @@
 
 .custom-shape-divider-bottom-1642074388 .shape-fill {
     fill: #7B8CDE;
+}
+
+.spacer {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: calc(160% + 1.3px);
 }

@@ -1,0 +1,54 @@
+<app-header></app-header>
+<article class="flex flex-col w-[816px] mx-auto mt-72 space-y-12">
+  <div class="flex flex-col space-y-8">
+    <div class="flex items-center justify-center space-x-4">
+      <!-- PROJECT TITLE -->
+      <h2 class="font-semibold text-2xl text-center"><strong class="font-semibold text-purple-900 underline underline-offset-4 decoration-purple-300 decoration-2">predicting keystrokes</strong> using an audio side-channel attack and machine learning 👂</h2>
+    </div>
+
+    <!-- PROJECT ICONS -->
+    <div class="flex space-x-4 justify-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.135" viewBox="0 0 20 20.135"><path id="python" d="M20.885,8.454c-.357-1.364-1.007-2.436-2.371-2.436H16.695V8.161a3.1,3.1,0,0,1-2.956,3.053H8.9a2.427,2.427,0,0,0-2.371,2.469v4.58c0,1.267,1.137,2.046,2.371,2.469a7.816,7.816,0,0,0,4.807,0c1.2-.357,2.371-1.039,2.371-2.469V16.444H11.3v-.585h7.211c1.364,0,1.916-.974,2.371-2.436a8.611,8.611,0,0,0,0-4.97ZM14,17.548a.909.909,0,0,1,0,1.819.908.908,0,0,1-.909-.909A.888.888,0,0,1,14,17.548ZM8.672,10.6h4.807A2.407,2.407,0,0,0,15.85,8.129V3.614a2.7,2.7,0,0,0-2.371-2.469,17.018,17.018,0,0,0-4.807,0C6.626,1.5,6.3,2.25,6.3,3.614V5.433h4.807v.585H4.547A3,3,0,0,0,1.591,8.454a8.754,8.754,0,0,0,0,4.84c.357,1.429,1.137,2.436,2.566,2.436H5.716V13.553A2.988,2.988,0,0,1,8.672,10.6ZM8.38,4.2a.929.929,0,0,1-.909-.909.909.909,0,1,1,1.819,0A.929.929,0,0,1,8.38,4.2Z" transform="translate(-1.25 -0.975)" fill="#e9b949"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="20" viewBox="0 0 15 20"><path id="Path_38" data-name="Path 38" d="M4,4.5A2.5,2.5,0,0,1,6.5,2h5.732A2.5,2.5,0,0,1,14,2.732L18.267,7A2.5,2.5,0,0,1,19,8.767V19.5A2.5,2.5,0,0,1,16.5,22H6.5A2.5,2.5,0,0,1,4,19.5ZM6.5,12a1.25,1.25,0,0,1,1.25-1.25h7.5a1.25,1.25,0,0,1,0,2.5H7.75A1.25,1.25,0,0,1,6.5,12Zm1.25,3.75a1.25,1.25,0,0,0,0,2.5h7.5a1.25,1.25,0,0,0,0-2.5Z" transform="translate(-4 -2)" fill="#ba2525" fill-rule="evenodd"/></svg>
+    </div>
+  </div>
+
+
+  <div class="flex space-x-6 justify-center">
+
+      <button class="relative bg-purple-050 bg-opacity-5 rounded-full px-6 py-2 shadow-md font-medium">
+        <div class="inline-flex justify-center align-middle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" /></svg>
+          <h2 class="ml-3">Paper</h2>
+        </div>
+        <span class="absolute bg-[#BA2525] px-2 py-1 rounded-full text-[10px] font-bold text-white -top-2 -right-4">PDF</span>
+      </button>
+
+      <button class="relative bg-purple-050 bg-opacity-5 rounded-full px-6 py-2 shadow-md font-medium">
+        <div class="inline-flex justify-center align-middle">
+          <svg width="20" height="18.425" viewBox="0 0 22 18.425"><path id="Path_39" data-name="Path 39" d="M10,20,14,4m4,4,4,4-4,4M6,16,2,12,6,8" transform="translate(-1 -2.787)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          <h2 class="ml-3">Code</h2>
+        </div>
+
+      </button>
+
+  </div>
+
+
+  <!-- PROJECT DESCRIPTION -->
+  <div class="flex flex-col space-y-8">
+    <p class="text-lg leading-9">For my MSc Computer Science research project, I studied the feasibility of an audio side-channel attack regarding ‘keystroke snooping’, in which an attack can utilise the acoustic emanation of a keystroke to predict a specific key (or passage of keys) being pressed. I achieved a 91% average in this project.</p>
+    <p class="text-lg leading-9">A novel attack was presented in this research, which used cross-prediction techniques on a stereo array of microphones to increase keystroke recovery rate by 15% when compared to previous research papers. It was shown from my research that key classification using a cross-predicted Random Forest model can achieve up to 89% keystroke recovery rate from a 40-key classification problem. User experiments were also conducted, showing results as high as 85% keystroke recovery from contextual arguments typed by the user. In all cases, a combination of Mel-Frequency Cepstral Coefficients (MFCCs) and Time-Difference of Arrival (TDoA) features were used as input features for the Random Forest classification model.</p>
+
+
+  </div>
+</article>
+
+<footer class="w-full fixed bottom-[0%]">
+  <div class="fixed bottom-0 custom-shape-divider-bottom-1642074388">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</footer>

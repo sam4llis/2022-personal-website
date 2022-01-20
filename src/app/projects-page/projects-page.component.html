@@ -1,0 +1,126 @@
+<app-header></app-header>
+
+<section class="flex flex-col w-[816px] justify-start mx-auto mt-72">
+
+  <!-- TITLE AND ICON -->
+  <div class="flex align-middle space-x-6">
+      <svg width="30" height="30" viewBox="0 0 30 30"><g data-name="Group 10" transform="translate(-566 -363)"><path d="M21.346,9.106a3.029,3.029,0,0,1,3.741,3.741,1.484,1.484,0,0,1,.757,1.3V24.859a1.515,1.515,0,0,1-.454,1.075l-6.422,6.422a1.515,1.515,0,0,1-2.575-1.06V25.873l-.742.288a1.515,1.515,0,0,1-1.772-.56,21.356,21.356,0,0,0-5.3-5.3,1.515,1.515,0,0,1-.545-1.757l.288-.727H2.9a1.515,1.515,0,0,1-1.045-2.59L8.274,8.8a1.515,1.515,0,0,1,1.06-.454H20.058a1.466,1.466,0,0,1,1.3.757ZM18.69,14.15,16,16.059a4.088,4.088,0,0,1,2.136,2.136l1.924-2.547-.8-.71-.55-.788ZM29.828,2.79A1.515,1.515,0,0,1,31.4,4.366a23.583,23.583,0,0,1-.454,3.862c-.712-.909-3.014-.288-3.862-1.121-.833-.848-.212-3.15-1.121-3.862A23.779,23.779,0,0,1,29.828,2.79Z" transform="translate(564.596 360.211)" fill="#9faae7"/><path d="M9.068,16.228C12.838,10.259,18.885,4.5,25.8,3.1a30.929,30.929,0,0,1,5.3,5.3A25.68,25.68,0,0,1,19.554,25.155c-2.583-4.307-6.184-6.321-10.486-8.911ZM7.683,23.5A26.1,26.1,0,0,1,10.7,26.509a1.611,1.611,0,0,1-.757,2.578,25.217,25.217,0,0,1-3.866.87,1.611,1.611,0,0,1-1.836-1.82,28.754,28.754,0,0,1,.854-3.883A1.611,1.611,0,0,1,7.667,23.5Zm11.823-8.812a3.224,3.224,0,1,0,0-4.559,3.223,3.223,0,0,0,0,4.559Z" transform="translate(564.596 360.211)" fill="#7b8cde"/></g></svg>
+    <h1 class="font-extrabold text-4xl">Projects</h1>
+  </div>
+
+</section>
+
+<div class="spacer">
+  <div class="fill-purple-500 opacity-5">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</div>
+
+<div class="bg-purple-500 bg-opacity-5 ">
+
+  <!-- <section -->
+  <!--   class="flex flex-col w-[816px] justify-center mx-auto space-y-48" -->
+  <!--   *ngFor="let project of projects" -->
+  <!-- > -->
+  <!--   <app-project-page [project]="project"></app-project-page> -->
+
+    <!-- <app-project-page> -->
+      <!-- <h2 project-title -->
+      <!--   class="font-semibold text-2xl text-center" -->
+      <!--   [innerHtml]="project.title"> -->
+      <!--   {{ project.title }} -->
+      <!-- </h2> -->
+      <!-- <p project-text>{{ project.text }}</p> -->
+    <!-- </app-project-page> -->
+
+    <!-- <a routerLink="/project-keystrokes" class="flex space-x-4"> -->
+    <!--   <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg> -->
+    <!--   <p class="text-purple-900 text-lg leading-9">Read more</p> -->
+    <!-- </a> -->
+
+  <!-- </section> -->
+
+  <section class="flex flex-col w-[816px] justify-center mx-auto space-y-48">
+
+      <!-- PROJECT -->
+      <!-- TODO(sam3llis): make title clickable -->
+      <article class="flex flex-col space-y-8">
+        <!-- PROJECT TITLE -->
+        <div class="flex items-center justify-center space-x-4">
+          <!-- LOGO -->
+          <div class="flex items-center space-x-3">
+            <svg class="w-[50px] h-[44px]" viewBox="0 0 50 44">
+              <path class="fill-purple-600" d="M28,44A20.008,20.008,0,0,1,9.664,32H25a24.939,24.939,0,0,0,13.182-3.753,25.093,25.093,0,0,0,9.041-9.785A20,20,0,1,0,9.664,32H5a5.006,5.006,0,0,1-5-5V25A24.98,24.98,0,0,1,25,0H45a5.006,5.006,0,0,1,5,5V7a25.07,25.07,0,0,1-2.776,11.462A19.993,19.993,0,0,1,28,44Z"/>
+            </svg>
+            <h2 class="font-lato font-medium text-purple-900 text-xl">mononaut.io</h2>
+          </div>
+          <!-- PROJECT TITLE -->
+          <h2 class="font-semibold text-2xl">finding the <strong class="font-semibold text-purple-900 underline underline-offset-4 decoration-purple-300 decoration-2">best</strong> audio plug-in deals 🚀</h2>
+
+        </div>
+
+        <!-- PROJECT ICONS -->
+        <div class="flex space-x-4 justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21.565" viewBox="0 0 20 21.565"><path id="angular" d="M11.474,12.374h3.687L13.283,7.957l-1.809,4.417ZM13.283,1,3.3,4.583,4.865,17.87l8.417,4.7,8.487-4.7L23.3,4.583Zm6.261,16.417H17.178l-1.217-3.13H10.639l-1.287,3.13H7.022L13.283,3.4Z" transform="translate(-3.3 -1)" fill="#ba2525"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path id="typescript-2" d="M2,11.41v10H22v-20H2Zm16.117-.8a2.49,2.49,0,0,1,1.251.72,3.293,3.293,0,0,1,.48.64c0,.026-.864.61-1.39.936-.019.013-.1-.07-.181-.2a1.134,1.134,0,0,0-.939-.565c-.606-.042-1,.277-.994.8a.733.733,0,0,0,.086.374c.133.277.381.442,1.158.778a4.985,4.985,0,0,1,2.426,1.6,2.9,2.9,0,0,1,.232,2.438,2.683,2.683,0,0,1-2.213,1.584A6.131,6.131,0,0,1,16.51,19.7a3.68,3.68,0,0,1-2.03-1.048,3.516,3.516,0,0,1-.52-.771,1.494,1.494,0,0,1,.184-.117l.736-.422.574-.333.12.178a2.685,2.685,0,0,0,.758.726,1.854,1.854,0,0,0,1.946-.1.869.869,0,0,0,.11-1.107c-.16-.222-.48-.41-1.374-.8a4.953,4.953,0,0,1-1.883-1.158,2.637,2.637,0,0,1-.549-1,4,4,0,0,1-.035-1.28,2.433,2.433,0,0,1,2.051-1.9,5.066,5.066,0,0,1,1.518.042Zm-4.694.838v.819h-2.6v7.4H8.984v-7.4h-2.6v-.8A7.87,7.87,0,0,1,6.4,10.64c.01-.013,1.6-.019,3.52-.016h3.49Z" transform="translate(-2 -1.41)" fill="#2d83ae"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.135" viewBox="0 0 20 20.135"><path id="python" d="M20.885,8.454c-.357-1.364-1.007-2.436-2.371-2.436H16.695V8.161a3.1,3.1,0,0,1-2.956,3.053H8.9a2.427,2.427,0,0,0-2.371,2.469v4.58c0,1.267,1.137,2.046,2.371,2.469a7.816,7.816,0,0,0,4.807,0c1.2-.357,2.371-1.039,2.371-2.469V16.444H11.3v-.585h7.211c1.364,0,1.916-.974,2.371-2.436a8.611,8.611,0,0,0,0-4.97ZM14,17.548a.909.909,0,0,1,0,1.819.908.908,0,0,1-.909-.909A.888.888,0,0,1,14,17.548ZM8.672,10.6h4.807A2.407,2.407,0,0,0,15.85,8.129V3.614a2.7,2.7,0,0,0-2.371-2.469,17.018,17.018,0,0,0-4.807,0C6.626,1.5,6.3,2.25,6.3,3.614V5.433h4.807v.585H4.547A3,3,0,0,0,1.591,8.454a8.754,8.754,0,0,0,0,4.84c.357,1.429,1.137,2.436,2.566,2.436H5.716V13.553A2.988,2.988,0,0,1,8.672,10.6ZM8.38,4.2a.929.929,0,0,1-.909-.909.909.909,0,1,1,1.819,0A.929.929,0,0,1,8.38,4.2Z" transform="translate(-1.25 -0.975)" fill="#e9b949"/></svg>
+        </div>
+
+        <!-- PROJECT DESCRIPTION -->
+        <div class="flex flex-col space-y-8">
+          <p class="text-lg leading-9">A website created to help you decide the best time to purchase a specific audio plug-in. At the moment, a database of plug-in prices from the <a>Universal Audio</a> catalogue is being collected...</p>
+
+          <!-- READ MORE -->
+          <a routerLink="/project-mononaut" class="flex space-x-4">
+            <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+            <p class="text-purple-900 text-lg leading-9">Read more</p>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT -->
+      <!-- TODO(sam3llis): make title clickable -->
+      <article class="flex flex-col space-y-8">
+        <!-- PROJECT TITLE -->
+        <div class="flex items-center justify-center space-x-4">
+          <!-- PROJECT TITLE -->
+          <h2 class="font-semibold text-2xl text-center"><strong class="font-semibold text-purple-900 underline underline-offset-4 decoration-purple-300 decoration-2">predicting keystrokes</strong> using an audio side-channel attack and machine learning 👂</h2>
+        </div>
+
+        <!-- PROJECT ICONS -->
+        <div class="flex space-x-4 justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.135" viewBox="0 0 20 20.135"><path id="python" d="M20.885,8.454c-.357-1.364-1.007-2.436-2.371-2.436H16.695V8.161a3.1,3.1,0,0,1-2.956,3.053H8.9a2.427,2.427,0,0,0-2.371,2.469v4.58c0,1.267,1.137,2.046,2.371,2.469a7.816,7.816,0,0,0,4.807,0c1.2-.357,2.371-1.039,2.371-2.469V16.444H11.3v-.585h7.211c1.364,0,1.916-.974,2.371-2.436a8.611,8.611,0,0,0,0-4.97ZM14,17.548a.909.909,0,0,1,0,1.819.908.908,0,0,1-.909-.909A.888.888,0,0,1,14,17.548ZM8.672,10.6h4.807A2.407,2.407,0,0,0,15.85,8.129V3.614a2.7,2.7,0,0,0-2.371-2.469,17.018,17.018,0,0,0-4.807,0C6.626,1.5,6.3,2.25,6.3,3.614V5.433h4.807v.585H4.547A3,3,0,0,0,1.591,8.454a8.754,8.754,0,0,0,0,4.84c.357,1.429,1.137,2.436,2.566,2.436H5.716V13.553A2.988,2.988,0,0,1,8.672,10.6ZM8.38,4.2a.929.929,0,0,1-.909-.909.909.909,0,1,1,1.819,0A.929.929,0,0,1,8.38,4.2Z" transform="translate(-1.25 -0.975)" fill="#e9b949"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="20" viewBox="0 0 15 20"><path id="Path_38" data-name="Path 38" d="M4,4.5A2.5,2.5,0,0,1,6.5,2h5.732A2.5,2.5,0,0,1,14,2.732L18.267,7A2.5,2.5,0,0,1,19,8.767V19.5A2.5,2.5,0,0,1,16.5,22H6.5A2.5,2.5,0,0,1,4,19.5ZM6.5,12a1.25,1.25,0,0,1,1.25-1.25h7.5a1.25,1.25,0,0,1,0,2.5H7.75A1.25,1.25,0,0,1,6.5,12Zm1.25,3.75a1.25,1.25,0,0,0,0,2.5h7.5a1.25,1.25,0,0,0,0-2.5Z" transform="translate(-4 -2)" fill="#ba2525" fill-rule="evenodd"/></svg>
+
+
+
+        </div>
+
+        <!-- PROJECT DESCRIPTION -->
+        <div class="flex flex-col space-y-8">
+          <p class="text-lg leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in felis urna. Proin ac rhoncus lorem. Donec leo sem, ultricies ac scelerisque sit amet, ornare at quam. Nullam imperdiet libero a sapien faucibus interdum. Vestibulum efficitur facilisis imperdiet. Nunc tincidunt fringilla metus ut posuere. Sed mollis pretium sodales. Nulla et velit quis leo placerat sollicitudin. Curabitur id luctus nulla, non fringilla ipsum. Nulla nisl sapien, blandit non luctus eget, rutrum in nulla…</p>
+
+          <!-- READ MORE -->
+          <a routerLink="/project-keystrokes" class="flex space-x-4">
+            <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+            <p class="text-purple-900 text-lg leading-9">Read more</p>
+          </a>
+        </div>
+      </article>
+
+  </section>
+
+
+
+
+<footer class="w-full bottom-[0%]">
+  <div class="fixed bottom-0 custom-shape-divider-bottom-1642074388">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</footer>
+</div>
