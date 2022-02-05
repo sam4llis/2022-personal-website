@@ -10,7 +10,7 @@
 
 </section>
 
-<div class="spacer">
+<div class="spacer mt-8">
   <div class="fill-purple-500 opacity-5">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
@@ -18,35 +18,13 @@
   </div>
 </div>
 
-<div class="bg-purple-500 bg-opacity-5 ">
+<div class="bg-purple-500 bg-opacity-5">
 
-  <!-- <section -->
-  <!--   class="flex flex-col w-[816px] justify-center mx-auto space-y-48" -->
-  <!--   *ngFor="let project of projects" -->
-  <!-- > -->
-  <!--   <app-project-page [project]="project"></app-project-page> -->
-
-    <!-- <app-project-page> -->
-      <!-- <h2 project-title -->
-      <!--   class="font-semibold text-2xl text-center" -->
-      <!--   [innerHtml]="project.title"> -->
-      <!--   {{ project.title }} -->
-      <!-- </h2> -->
-      <!-- <p project-text>{{ project.text }}</p> -->
-    <!-- </app-project-page> -->
-
-    <!-- <a routerLink="/project-keystrokes" class="flex space-x-4"> -->
-    <!--   <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg> -->
-    <!--   <p class="text-purple-900 text-lg leading-9">Read more</p> -->
-    <!-- </a> -->
-
-  <!-- </section> -->
-
-  <section class="flex flex-col w-[816px] justify-center mx-auto space-y-48">
+  <section class="flex flex-col w-[816px] justify-center mx-auto space-y-48 mb-32">
 
       <!-- PROJECT -->
       <!-- TODO(sam3llis): make title clickable -->
-      <article class="flex flex-col space-y-8">
+      <article class="flex flex-col space-y-8 mt-20">
         <!-- PROJECT TITLE -->
         <div class="flex items-center justify-center space-x-4">
           <!-- LOGO -->
@@ -70,10 +48,10 @@
 
         <!-- PROJECT DESCRIPTION -->
         <div class="flex flex-col space-y-8">
-          <p class="text-lg leading-9">A website created to help you decide the best time to purchase a specific audio plug-in. At the moment, a database of plug-in prices from the <a>Universal Audio</a> catalogue is being collected...</p>
+          <p class="text-lg leading-9">A website created to help you decide the best time to purchase a specific audio plug-in. At the moment, a database of plug-in prices from the <a>Universal Audio</a> catalogue is being collected. In the future, a website will be created with real-time graphs which will utilise this data.</p>
 
           <!-- READ MORE -->
-          <a routerLink="/project-mononaut" class="flex space-x-4">
+          <a routerLink="/project-mononaut" class="flex space-x-4 hover:underline underline-offset-2 decoration-purple-300 decoration-2">
             <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
             <p class="text-purple-900 text-lg leading-9">Read more</p>
           </a>
@@ -100,10 +78,10 @@
 
         <!-- PROJECT DESCRIPTION -->
         <div class="flex flex-col space-y-8">
-          <p class="text-lg leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in felis urna. Proin ac rhoncus lorem. Donec leo sem, ultricies ac scelerisque sit amet, ornare at quam. Nullam imperdiet libero a sapien faucibus interdum. Vestibulum efficitur facilisis imperdiet. Nunc tincidunt fringilla metus ut posuere. Sed mollis pretium sodales. Nulla et velit quis leo placerat sollicitudin. Curabitur id luctus nulla, non fringilla ipsum. Nulla nisl sapien, blandit non luctus eget, rutrum in nulla…</p>
+          <p class="text-lg leading-9">For my MSc Computer Science research project, I studied the feasibility of an audio side-channel attack regarding ‘keystroke snooping’, in which an attack can utilise the acoustic emanation of a keystroke to predict a specific key (or passage of keys) being pressed. I achieved a 91% average in this project.</p>
 
           <!-- READ MORE -->
-          <a routerLink="/project-keystrokes" class="flex space-x-4">
+          <a routerLink="/project-keystrokes" class="flex space-x-4 hover:underline underline-offset-2 decoration-purple-300 decoration-2">
             <svg class="my-auto" width="20.414" height="10.828" viewBox="0 0 20.414 10.828"><path id="Path_34" data-name="Path 34" d="M17,8l4,4m0,0-4,4m4-4H3" transform="translate(-2 -6.586)" fill="none" stroke="#4b64d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
             <p class="text-purple-900 text-lg leading-9">Read more</p>
           </a>
@@ -115,7 +93,7 @@
 
 
 
-<footer class="w-full bottom-[0%]">
+<footer class="w-full bottom-0">
   <div class="fixed bottom-0 custom-shape-divider-bottom-1642074388">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
     <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
